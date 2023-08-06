@@ -1,0 +1,457 @@
+@media (max-width: 1335px){
+.instruction-navigation{
+    ul{
+        li{
+            padding: 14px 20px 13px;
+        }
+    }
+}
+}
+@media (max-width: 1205px){
+.links-wrap{
+    display: none;
+}
+.intrnt-parcel-delivery.top-wrap{
+    .navigations-menu-page{
+        li.link-navigation{
+            display: block;
+        }
+    }
+}
+}
+@media (max-width: 1150px){
+.country-wrapper{
+    &__card{
+        width: calc(20% - 25px);
+    }
+}
+.sec-tariffs{
+    .tariffs-wrapper{
+        &__row{
+            width: calc(33.3% - 20px);
+        }
+    }
+}
+.instruction-navigation{
+    max-width: 100%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    ul{
+        li{
+            white-space: nowrap;
+        }
+    }
+}
+.input-country-search{
+    width: 40%;
+}
+.sec-faq{
+    .faq_wrap{
+        width: 70%;
+    }
+}
+.intrnt-parcel-delivery.top-wrap{
+    .top-wrap__inner{
+        flex-direction: column;
+        .text-part{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            .heading-section{
+                text-align: center;
+            }
+            .flex-buttons{
+                flex-direction: column;
+                width: 100%;
+                .blue-button54{
+                    margin-bottom: 15px;
+                }
+                .swiper-buttons{
+                    border: unset;
+                    width: 100%!important;
+                    .swiper-button-prev, .swiper-button-next{
+                        background-color: #fff!important;
+                    }
+                }
+            }
+        }
+        .main-img{
+            width: 65%;
+            margin-top: 15px;
+            .img-slide{
+                vertical-align: bottom;
+                display: flex;
+            }
+        }
+    }
+}
+.sec-shipping-calculator{
+    background-size: 100% 280px;
+}
+}
+@media (max-width: 991px){
+.country-wrapper{
+    &__card{
+        width: calc(25% - 25px);
+    }
+}
+.sec-country-parcel-delivery{
+    &__inner{
+        .flex-info{
+            display: block;
+            .descr{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .input-country-search{
+                width: 70%;
+            }
+        }
+    }
+}
+.sec-tariffs{
+    .tariffs-wrapper{
+        &__row{
+            width: calc(50% - 20px);
+        }
+    }
+}
+.sec-shipping-calculator{
+    background-size: 100% 240px;
+}
+.calculation-form{
+    width: 70%;
+    padding: 20px;
+}
+.restr-shipments-wrapper {
+    width: calc(100% + 15px);
+    margin-left: -15px;
+    &__col{
+        width: calc(33.3% - 15px);
+        margin-left: 15px;
+        margin-bottom: 40px;
+        .img{
+            width: 90px;
+            height: 90px;
+            margin-bottom: 15px;
+        }
+        h3{
+            font-size: 15px;
+            line-height: 140%; /* 21px */
+            letter-spacing: 0.3px;
+            margin-bottom: 10px;
+        }
+        .blue-button45{
+            height: 40px;
+            padding: 13px 27px;
+        }
+    }
+}
+}
+@media(max-width: 768px){
+.sec-country-parcel-delivery {
+    padding: 40px 0 10px;
+}
+.heading-section{
+    font-size: 20px;
+    line-height: 130%;
+}
+.descr{
+    font-size: 13px;
+    line-height: 20px; /* 153.846% */
+    letter-spacing: 0.26px;
+}
+.sec-country-parcel-delivery{
+    &__inner{
+        .heading-section{
+            margin-bottom: 10px;
+        }
+        .flex-info{
+            margin-bottom: 20px;
+            .input-country-search{
+                width: 100%;
+                input{
+                    font-size: 14px;
+                    line-height: 109%; /* 15.26px */
+                    letter-spacing: 0.28px;
+                    background-size: 20px 20px;
+                    &::placeholder{
+                        font-size: 14px;
+                        line-height: 109%; /* 15.26px */
+                        letter-spacing: 0.28px;
+                    }
+                }
+                .blue-button54{
+                    padding: 14px 18px;
+                    font-size: 11px;
+                    letter-spacing: 0.11px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+}
+.country-wrapper{
+    width: calc(100% + 10px);
+    margin-left: -10px;
+    padding-right: 15px;
+    &__card{
+        padding: 20px;
+        width: calc(50% - 10px);
+        margin-left: 10px;
+        margin-bottom: 10px;
+        .alert-icon{
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
+.sec-tariffs {
+    padding: 40px 0 20px;
+    .heading-section{
+        margin-bottom: 15px;
+    }
+    .tariffs-wrapper{
+        width: 100%;
+        margin-left: 0;
+        display: block;
+        &__row{
+            width: 100%;
+            margin-left: 0;
+            margin-bottom: 5px;
+            padding: 14px 15px;
+            img{
+                width: 40px;
+                height: 40px;
+            }
+            p{
+                font-size: 12px;
+                line-height: 140%; /* 16.8px */
+                letter-spacing: 0.24px;
+            }
+        }
+    }
+}
+.sec-instruction {
+    padding: 40px 0 30px;
+    &__inner{
+        .text-part{
+            width: 100%;
+            .heading-section{
+                margin-bottom: 10px;
+            }
+            .descr{
+                &:last-of-type{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+.instruction-navigation{
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    max-width: unset;
+    border-radius: unset;
+    ul{
+        li{
+            padding: 15px 20px 16px;
+            font-size: 13px;
+            line-height: 109%; /* 14.17px */
+            letter-spacing: 0.26px;
+        }
+    }
+}
+.instruction-wrapper{
+    &__card{
+        padding: 20px 20px 17px;
+        .top{
+            .number{
+                font-size: 30px;
+                line-height: 109%; /* 32.7px */
+                letter-spacing: 0.6px;
+            }
+        }
+        p{
+            font-size: 13px;
+            line-height: 20px; /* 153.846% */
+            letter-spacing: 0.26px;
+        }
+    }
+}
+.swiper-buttons{
+    display: none;
+}
+.swiper-scrollbar{
+    display: block;
+    background: var(--swiper-scrollbar-bg-color,#fff)!important;
+}
+.swiper-scrollbar-drag{
+    background: var(--swiper-scrollbar-drag-bg-color,#0061AF);
+}
+.instruction-wrapper{
+    margin-bottom: 25px;
+}
+.sec-faq {
+    padding: 40px 0 30px;
+    .faq_wrap{
+        width: 100%;
+        .accordion_sec{
+            .name_sec{
+                padding: 12px 25px 12px 20px;
+                span{
+                    width: calc(100% - 14px);
+                    font-size: 13px;
+                    line-height: 140%; /* 18.2px */
+                    letter-spacing: -0.13px;
+                }
+                .img_plus{
+                    width: 14px;
+                    height: 8px;
+                }
+            }
+            .content{
+                padding: 20px;
+                p{
+                    font-size: 13px;
+                    line-height: 20px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+.sec-restrictions-shipments {
+    padding: 40px 0 57px;
+    &__inner{
+        .heading-section{
+            margin-bottom: 10px;
+        }
+    }
+}
+.restr-shipments-wrapper {
+    display: block;
+    margin-top: 30px;
+    &__col{
+        width: 100%;
+        margin-bottom: 40px;
+        .img{
+            width: 90px;
+            height: 90px;
+            margin-bottom: 15px;
+        }
+        h3{
+            font-size: 15px;
+            line-height: 140%; /* 21px */
+            letter-spacing: 0.3px;
+            margin-bottom: 10px;
+        }
+        .blue-button45{
+            height: 40px;
+            padding: 13px 27px;
+        }
+    }
+}
+.blue-button45, .blue-button54{
+    font-size: 13px;
+    line-height: 109%; /* 14.17px */
+    letter-spacing: 0.26px;
+    padding: 19px 30px 20px;
+}
+.intrnt-parcel-delivery.top-wrap{
+    .navigation-international-del{
+        margin-bottom: 40px;
+        padding: 11px 15px 0px 15px;
+    }
+    .navigations-menu-page{
+        li{
+            margin-right: 15px;
+        }
+    }
+    .top-wrap__inner{
+        .text-part{
+            .heading-section{
+                font-size: 22px;
+                margin-bottom: 20px;
+            }
+            .flex-buttons{
+                .swiper-buttons{
+                    display: flex;
+                }
+                .blue-button54{
+                    height: 50px;
+                }
+                .swiper-button-prev, .swiper-button-next{
+                    width: 40px!important;
+                    height: 40px!important;
+                }
+            }
+        }
+        .main-img{
+            width: 100%;
+            width: calc(100% + 30px);
+            margin-left: -15px;
+        }
+    }
+}
+.label-sec {
+    padding: 7px 14px;
+    margin-bottom: 12px;
+    span{
+        font-size: 12px;
+        line-height: 150%;
+        letter-spacing: 0.24px;
+    }
+}
+.sec-shipping-calculator {
+    padding: 40px 0 0px;
+    background-image: unset;
+    background-position: unset;
+    background-repeat: unset;
+    &__inner{
+        .heading-section{
+            margin-bottom: 5px;
+        }
+    }
+    .img-calc-mobile{
+        display: flex;
+        width: calc(100% + 30px);
+        margin-left: -15px;
+        vertical-align: bottom;
+        img{
+            width: 100%;
+        }        
+    }
+}
+.calculation-form {
+    background: unset;
+    padding: unset;
+    width: 100%;
+    margin: 30px 0 10px;
+    .blue-button45{
+        width: 100%;
+        margin: unset;
+    }
+    .flex-inputs{
+        display: block;
+        .form-row{
+            width: 100%;
+            &:last-of-type{
+                margin-bottom: 30px;
+            }
+            .input:disabled{
+                background-color: #fff;
+                background-position: 96% center, 11px center;
+            }
+        }
+        &:after{
+            display: none;
+        }
+    }
+}
+body .select2-container--default .select2-selection--single {
+    border: unset;
+}
+}

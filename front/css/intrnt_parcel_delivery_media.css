@@ -1,0 +1,397 @@
+@media (max-width: 1335px) {
+  .instruction-navigation ul li {
+    padding: 14px 20px 13px;
+  }
+}
+@media (max-width: 1205px) {
+  .links-wrap {
+    display: none;
+  }
+  .intrnt-parcel-delivery.top-wrap .navigations-menu-page li.link-navigation {
+    display: block;
+  }
+}
+@media (max-width: 1150px) {
+  .country-wrapper__card {
+    width: calc(20% - 25px);
+  }
+  .sec-tariffs .tariffs-wrapper__row {
+    width: calc(33.3% - 20px);
+  }
+  .instruction-navigation {
+    max-width: 100%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .instruction-navigation ul li {
+    white-space: nowrap;
+  }
+  .input-country-search {
+    width: 40%;
+  }
+  .sec-faq .faq_wrap {
+    width: 70%;
+  }
+  .intrnt-parcel-delivery.top-wrap .top-wrap__inner {
+    flex-direction: column;
+  }
+  .intrnt-parcel-delivery.top-wrap .top-wrap__inner .text-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .intrnt-parcel-delivery.top-wrap .top-wrap__inner .text-part .heading-section {
+    text-align: center;
+  }
+  .intrnt-parcel-delivery.top-wrap .top-wrap__inner .text-part .flex-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+  .intrnt-parcel-delivery.top-wrap .top-wrap__inner .text-part .flex-buttons .blue-button54 {
+    margin-bottom: 15px;
+  }
+  .intrnt-parcel-delivery.top-wrap .top-wrap__inner .text-part .flex-buttons .swiper-buttons {
+    border: unset;
+    width: 100% !important;
+  }
+  .intrnt-parcel-delivery.top-wrap .top-wrap__inner .text-part .flex-buttons .swiper-buttons .swiper-button-prev, .intrnt-parcel-delivery.top-wrap .top-wrap__inner .text-part .flex-buttons .swiper-buttons .swiper-button-next {
+    background-color: #fff !important;
+  }
+  .intrnt-parcel-delivery.top-wrap .top-wrap__inner .main-img {
+    width: 65%;
+    margin-top: 15px;
+  }
+  .intrnt-parcel-delivery.top-wrap .top-wrap__inner .main-img .img-slide {
+    vertical-align: bottom;
+    display: flex;
+  }
+  .sec-shipping-calculator {
+    background-size: 100% 280px;
+  }
+}
+@media (max-width: 991px) {
+  .country-wrapper__card {
+    width: calc(25% - 25px);
+  }
+  .sec-country-parcel-delivery__inner .flex-info {
+    display: block;
+  }
+  .sec-country-parcel-delivery__inner .flex-info .descr {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .sec-country-parcel-delivery__inner .flex-info .input-country-search {
+    width: 70%;
+  }
+  .sec-tariffs .tariffs-wrapper__row {
+    width: calc(50% - 20px);
+  }
+  .sec-shipping-calculator {
+    background-size: 100% 240px;
+  }
+  .calculation-form {
+    width: 70%;
+    padding: 20px;
+  }
+  .restr-shipments-wrapper {
+    width: calc(100% + 15px);
+    margin-left: -15px;
+  }
+  .restr-shipments-wrapper__col {
+    width: calc(33.3% - 15px);
+    margin-left: 15px;
+    margin-bottom: 40px;
+  }
+  .restr-shipments-wrapper__col .img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 15px;
+  }
+  .restr-shipments-wrapper__col h3 {
+    font-size: 15px;
+    line-height: 140%; /* 21px */
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
+  }
+  .restr-shipments-wrapper__col .blue-button45 {
+    height: 40px;
+    padding: 13px 27px;
+  }
+}
+@media (max-width: 768px) {
+  .sec-country-parcel-delivery {
+    padding: 40px 0 10px;
+  }
+  .heading-section {
+    font-size: 20px;
+    line-height: 130%;
+  }
+  .descr {
+    font-size: 13px;
+    line-height: 20px; /* 153.846% */
+    letter-spacing: 0.26px;
+  }
+  .sec-country-parcel-delivery__inner .heading-section {
+    margin-bottom: 10px;
+  }
+  .sec-country-parcel-delivery__inner .flex-info {
+    margin-bottom: 20px;
+  }
+  .sec-country-parcel-delivery__inner .flex-info .input-country-search {
+    width: 100%;
+  }
+  .sec-country-parcel-delivery__inner .flex-info .input-country-search input {
+    font-size: 14px;
+    line-height: 109%; /* 15.26px */
+    letter-spacing: 0.28px;
+    background-size: 20px 20px;
+  }
+  .sec-country-parcel-delivery__inner .flex-info .input-country-search input::placeholder {
+    font-size: 14px;
+    line-height: 109%; /* 15.26px */
+    letter-spacing: 0.28px;
+  }
+  .sec-country-parcel-delivery__inner .flex-info .input-country-search .blue-button54 {
+    padding: 14px 18px;
+    font-size: 11px;
+    letter-spacing: 0.11px;
+    height: 40px;
+  }
+  .country-wrapper {
+    width: calc(100% + 10px);
+    margin-left: -10px;
+    padding-right: 15px;
+  }
+  .country-wrapper__card {
+    padding: 20px;
+    width: calc(50% - 10px);
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .country-wrapper__card .alert-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .sec-tariffs {
+    padding: 40px 0 20px;
+  }
+  .sec-tariffs .heading-section {
+    margin-bottom: 15px;
+  }
+  .sec-tariffs .tariffs-wrapper {
+    width: 100%;
+    margin-left: 0;
+    display: block;
+  }
+  .sec-tariffs .tariffs-wrapper__row {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 5px;
+    padding: 14px 15px;
+  }
+  .sec-tariffs .tariffs-wrapper__row img {
+    width: 40px;
+    height: 40px;
+  }
+  .sec-tariffs .tariffs-wrapper__row p {
+    font-size: 12px;
+    line-height: 140%; /* 16.8px */
+    letter-spacing: 0.24px;
+  }
+  .sec-instruction {
+    padding: 40px 0 30px;
+  }
+  .sec-instruction__inner .text-part {
+    width: 100%;
+  }
+  .sec-instruction__inner .text-part .heading-section {
+    margin-bottom: 10px;
+  }
+  .sec-instruction__inner .text-part .descr:last-of-type {
+    margin-bottom: 20px;
+  }
+  .instruction-navigation {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    max-width: unset;
+    border-radius: unset;
+  }
+  .instruction-navigation ul li {
+    padding: 15px 20px 16px;
+    font-size: 13px;
+    line-height: 109%; /* 14.17px */
+    letter-spacing: 0.26px;
+  }
+  .instruction-wrapper__card {
+    padding: 20px 20px 17px;
+  }
+  .instruction-wrapper__card .top .number {
+    font-size: 30px;
+    line-height: 109%; /* 32.7px */
+    letter-spacing: 0.6px;
+  }
+  .instruction-wrapper__card p {
+    font-size: 13px;
+    line-height: 20px; /* 153.846% */
+    letter-spacing: 0.26px;
+  }
+  .swiper-buttons {
+    display: none;
+  }
+  .swiper-scrollbar {
+    display: block;
+    background: var(--swiper-scrollbar-bg-color, #fff) !important;
+  }
+  .swiper-scrollbar-drag {
+    background: var(--swiper-scrollbar-drag-bg-color, #0061AF);
+  }
+  .instruction-wrapper {
+    margin-bottom: 25px;
+  }
+  .sec-faq {
+    padding: 40px 0 30px;
+  }
+  .sec-faq .faq_wrap {
+    width: 100%;
+  }
+  .sec-faq .faq_wrap .accordion_sec .name_sec {
+    padding: 12px 25px 12px 20px;
+  }
+  .sec-faq .faq_wrap .accordion_sec .name_sec span {
+    width: calc(100% - 14px);
+    font-size: 13px;
+    line-height: 140%; /* 18.2px */
+    letter-spacing: -0.13px;
+  }
+  .sec-faq .faq_wrap .accordion_sec .name_sec .img_plus {
+    width: 14px;
+    height: 8px;
+  }
+  .sec-faq .faq_wrap .accordion_sec .content {
+    padding: 20px;
+  }
+  .sec-faq .faq_wrap .accordion_sec .content p {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .sec-restrictions-shipments {
+    padding: 40px 0 57px;
+  }
+  .sec-restrictions-shipments__inner .heading-section {
+    margin-bottom: 10px;
+  }
+  .restr-shipments-wrapper {
+    display: block;
+    margin-top: 30px;
+  }
+  .restr-shipments-wrapper__col {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .restr-shipments-wrapper__col .img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 15px;
+  }
+  .restr-shipments-wrapper__col h3 {
+    font-size: 15px;
+    line-height: 140%; /* 21px */
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
+  }
+  .restr-shipments-wrapper__col .blue-button45 {
+    height: 40px;
+    padding: 13px 27px;
+  }
+  .blue-button45, .blue-button54 {
+    font-size: 13px;
+    line-height: 109%; /* 14.17px */
+    letter-spacing: 0.26px;
+    padding: 19px 30px 20px;
+  }
+  .intrnt-parcel-delivery.top-wrap .navigation-international-del {
+    margin-bottom: 40px;
+    padding: 11px 15px 0px 15px;
+  }
+  .intrnt-parcel-delivery.top-wrap .navigations-menu-page li {
+    margin-right: 15px;
+  }
+  .intrnt-parcel-delivery.top-wrap .top-wrap__inner .text-part .heading-section {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .intrnt-parcel-delivery.top-wrap .top-wrap__inner .text-part .flex-buttons .swiper-buttons {
+    display: flex;
+  }
+  .intrnt-parcel-delivery.top-wrap .top-wrap__inner .text-part .flex-buttons .blue-button54 {
+    height: 50px;
+  }
+  .intrnt-parcel-delivery.top-wrap .top-wrap__inner .text-part .flex-buttons .swiper-button-prev, .intrnt-parcel-delivery.top-wrap .top-wrap__inner .text-part .flex-buttons .swiper-button-next {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .intrnt-parcel-delivery.top-wrap .top-wrap__inner .main-img {
+    width: 100%;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+  }
+  .label-sec {
+    padding: 7px 14px;
+    margin-bottom: 12px;
+  }
+  .label-sec span {
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.24px;
+  }
+  .sec-shipping-calculator {
+    padding: 40px 0 0px;
+    background-image: unset;
+    background-position: unset;
+    background-repeat: unset;
+  }
+  .sec-shipping-calculator__inner .heading-section {
+    margin-bottom: 5px;
+  }
+  .sec-shipping-calculator .img-calc-mobile {
+    display: flex;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    vertical-align: bottom;
+  }
+  .sec-shipping-calculator .img-calc-mobile img {
+    width: 100%;
+  }
+  .calculation-form {
+    background: unset;
+    padding: unset;
+    width: 100%;
+    margin: 30px 0 10px;
+  }
+  .calculation-form .blue-button45 {
+    width: 100%;
+    margin: unset;
+  }
+  .calculation-form .flex-inputs {
+    display: block;
+  }
+  .calculation-form .flex-inputs .form-row {
+    width: 100%;
+  }
+  .calculation-form .flex-inputs .form-row:last-of-type {
+    margin-bottom: 30px;
+  }
+  .calculation-form .flex-inputs .form-row .input:disabled {
+    background-color: #fff;
+    background-position: 96% center, 11px center;
+  }
+  .calculation-form .flex-inputs:after {
+    display: none;
+  }
+  body .select2-container--default .select2-selection--single {
+    border: unset;
+  }
+}
