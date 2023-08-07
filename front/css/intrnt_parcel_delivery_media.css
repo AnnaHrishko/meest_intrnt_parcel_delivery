@@ -84,6 +84,11 @@
   }
   .sec-country-parcel-delivery__inner .flex-info .input-country-search {
     width: 70%;
+    padding: 16px 21px;
+  }
+  .sec-country-parcel-delivery__inner .flex-info .input-country-search input {
+    padding-left: 37px;
+    background-position: 0px center;
   }
   .sec-tariffs .tariffs-wrapper__row {
     width: calc(50% - 20px);
