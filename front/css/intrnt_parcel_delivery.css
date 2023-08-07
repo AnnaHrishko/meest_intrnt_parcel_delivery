@@ -95,6 +95,9 @@ body {
   line-height: 25px; /* 166.667% */
   letter-spacing: 0.3px;
 }
+.descr a {
+  color: #0061AF;
+}
 .descr--small {
   font-size: 13px;
   color: #0061AF;
@@ -257,10 +260,9 @@ body {
   width: 33%;
   display: flex;
   justify-content: space-between;
-  padding: 5px;
+  padding: 20px;
 }
 .input-country-search input {
-  width: calc(100% - 145px);
   border: unset;
   padding: 0;
   background-color: transparent;
@@ -432,6 +434,7 @@ body {
   margin-left: -20px;
 }
 .sec-tariffs .tariffs-wrapper__row {
+  text-decoration: none;
   width: calc(25% - 20px);
   margin-left: 20px;
   border-radius: 20px;
@@ -446,7 +449,7 @@ body {
   height: 54px;
   margin-right: 5px;
 }
-.sec-tariffs .tariffs-wrapper__row p {
+.sec-tariffs .tariffs-wrapper__row span {
   color: #0061AF;
   font-size: 14px;
   font-style: normal;
@@ -476,6 +479,10 @@ body {
 }
 .sec-instruction__inner .text-part .descr:last-of-type {
   margin-bottom: 30px;
+}
+
+.sec-instruction .instruction-part.wrap1 .swiper-buttons {
+  display: none;
 }
 
 .instruction-navigation {

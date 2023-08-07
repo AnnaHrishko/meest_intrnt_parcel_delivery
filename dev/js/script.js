@@ -129,3 +129,29 @@ $('.country_select').select2({
 });
 
 
+
+function Searchinput () {
+  const input = $('.input-country').val().toUpperCase();
+  const countries = $('.link-country span');
+
+  for (let i = 0; i < countries.length; i++) {
+    const item = $(countries[i]);
+    const name = item.html();
+    if (name.toUpperCase().indexOf(input) > -1) {
+      item.closest('.country-wrapper__card').show();
+    } else {
+      item.closest('.country-wrapper__card').hide();
+    }
+  }
+}
+
+// if $('.input-country'.value.length > 0 ){
+  
+// }
+$('.input-country').keyup(function(){
+  Searchinput();
+})
+
+
+
+

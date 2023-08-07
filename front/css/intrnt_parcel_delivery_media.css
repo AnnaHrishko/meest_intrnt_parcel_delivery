@@ -195,7 +195,7 @@
     width: 40px;
     height: 40px;
   }
-  .sec-tariffs .tariffs-wrapper__row p {
+  .sec-tariffs .tariffs-wrapper__row span {
     font-size: 12px;
     line-height: 140%; /* 16.8px */
     letter-spacing: 0.24px;

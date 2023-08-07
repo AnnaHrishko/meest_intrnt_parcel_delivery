@@ -94,6 +94,9 @@ body{
     font-weight: 500;
     line-height: 25px; /* 166.667% */
     letter-spacing: 0.3px;
+    a{
+        color: #0061AF;
+    }
     &--small{
         font-size: 13px;
         color: #0061AF;
@@ -260,9 +263,8 @@ body{
     width: 33%;
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 20px;
     input{
-        width: calc(100% - 145px);
         border: unset;
         padding: 0;
         background-color: transparent;
@@ -440,6 +442,7 @@ body{
         width: calc(100% + 20px);
         margin-left: -20px;
         &__row{
+            text-decoration: none;
             width: calc(25% - 20px);
             margin-left: 20px;
             border-radius: 20px;
@@ -453,7 +456,7 @@ body{
                 height: 54px;
                 margin-right: 5px;
             }
-            p{
+            span{
                 color: #0061AF;
                 font-size: 14px;
                 font-style: normal;
@@ -488,6 +491,10 @@ body{
             }
         }
     }
+}
+
+.sec-instruction .instruction-part.wrap1 .swiper-buttons {
+    display: none;
 }
 
 .instruction-navigation{
