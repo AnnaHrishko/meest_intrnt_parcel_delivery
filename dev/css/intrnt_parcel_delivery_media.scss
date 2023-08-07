@@ -52,8 +52,30 @@
     }
 }
 .intrnt-parcel-delivery.top-wrap{
+    .swiper-buttons-country{
+        .swiper-button-prev, .swiper-button-next{
+            border-radius: 50%!important;
+            width: 40px!important;
+            height: 40px!important;
+            background-size: 7px 10px;
+            top: 50%!important;
+            transform: translateY(-50%);
+        }
+        .swiper-button-prev{
+            left: 5px!important;
+            right: unset!important;
+        }
+        .swiper-button-next{
+            right: 5px!important;
+        }
+    }
     .top-wrap__inner{
-        flex-direction: column;
+        .swiper-slide{
+            display: block;
+        }
+        .slide-country{
+            display: block;
+        }
         .text-part{
             display: flex;
             flex-direction: column;
@@ -79,11 +101,9 @@
         }
         .main-img{
             width: 65%;
-            margin-top: 15px;
-            .img-slide{
-                vertical-align: bottom;
-                display: flex;
-            }
+            margin: 15px auto 0;
+            vertical-align: bottom;
+            display: flex;
         }
     }
 }
@@ -346,6 +366,10 @@
             width: 90px;
             height: 90px;
             margin-bottom: 15px;
+            img{
+                width: 45px;
+                height: 45px;
+            }
         }
         h3{
             font-size: 15px;
@@ -395,7 +419,6 @@
             }
         }
         .main-img{
-            width: 100%;
             width: calc(100% + 30px);
             margin-left: -15px;
         }

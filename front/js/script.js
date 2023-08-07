@@ -69,15 +69,15 @@ breakpoints: {
 })
 
 $(document).ready(function(){
-  const swiper = new Swiper('.swiper.main-img', {
+  const swiper = new Swiper('.swiper.top-wrap__inner', {
 // Optional parameters
 
 loop: false,
 rewind: true,
 slidesPerView: 1,
-autoplay: {
-  delay: 5000,
-},
+// autoplay: {
+//   delay: 5000,
+// },
 
 // Navigation arrows
 navigation: {
@@ -86,7 +86,7 @@ navigation: {
 },
 pagination: {
  el: ".swiper-pagination-img",
- type: "fraction",
+//  type: "fraction",
 },
 });
 })

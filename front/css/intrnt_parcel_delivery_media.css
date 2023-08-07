@@ -33,8 +33,26 @@
   .sec-faq .faq_wrap {
     width: 70%;
   }
-  .intrnt-parcel-delivery.top-wrap .top-wrap__inner {
-    flex-direction: column;
+  .intrnt-parcel-delivery.top-wrap .swiper-buttons-country .swiper-button-prev, .intrnt-parcel-delivery.top-wrap .swiper-buttons-country .swiper-button-next {
+    border-radius: 50% !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-size: 7px 10px;
+    top: 50% !important;
+    transform: translateY(-50%);
+  }
+  .intrnt-parcel-delivery.top-wrap .swiper-buttons-country .swiper-button-prev {
+    left: 5px !important;
+    right: unset !important;
+  }
+  .intrnt-parcel-delivery.top-wrap .swiper-buttons-country .swiper-button-next {
+    right: 5px !important;
+  }
+  .intrnt-parcel-delivery.top-wrap .top-wrap__inner .swiper-slide {
+    display: block;
+  }
+  .intrnt-parcel-delivery.top-wrap .top-wrap__inner .slide-country {
+    display: block;
   }
   .intrnt-parcel-delivery.top-wrap .top-wrap__inner .text-part {
     display: flex;
@@ -61,9 +79,7 @@
   }
   .intrnt-parcel-delivery.top-wrap .top-wrap__inner .main-img {
     width: 65%;
-    margin-top: 15px;
-  }
-  .intrnt-parcel-delivery.top-wrap .top-wrap__inner .main-img .img-slide {
+    margin: 15px auto 0;
     vertical-align: bottom;
     display: flex;
   }
@@ -301,6 +317,10 @@
     height: 90px;
     margin-bottom: 15px;
   }
+  .restr-shipments-wrapper__col .img img {
+    width: 45px;
+    height: 45px;
+  }
   .restr-shipments-wrapper__col h3 {
     font-size: 15px;
     line-height: 140%; /* 21px */
@@ -339,7 +359,6 @@
     height: 40px !important;
   }
   .intrnt-parcel-delivery.top-wrap .top-wrap__inner .main-img {
-    width: 100%;
     width: calc(100% + 30px);
     margin-left: -15px;
   }
