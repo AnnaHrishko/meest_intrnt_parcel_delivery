@@ -1067,5 +1067,189 @@ body .select2-container{
     color: #1B2B3C!important;
   }
 
+// new section delivery-way
+.delivery-way-sec{
+    padding: 47px 0;
+    background-image: url(../img/bcg_del_way.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    overflow: hidden;
+    &__title{
+        display: none;
+    }
+    .center-bth{
+        display: none;
+    }
+    .blue-button45{
+        font-size: 14px;
+        img{
+            width: 14px;
+            height: 8px;
+            margin-left: 45px;
+        }
+    }
+}
+.delivery-way-wrap{
+    display: flex;
+    position: relative;
+    &__col{
+        width: 13%;
+        img{
+            width: 85px;
+            height: 85px;
+        }
+        h4{
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 20.5px;
+            letter-spacing: 2%;
+            color: #0061AF;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        p{
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 2%;
+            color: #0061AF; 
+        }
+        &:nth-child(1){
+            position: absolute;
+            left: 0;
+            top: 0;
+            &:after{
+                content: "";
+                display: block;
+                position: absolute;
+                bottom: -70px;
+                left: -82px;
+                background-image: url(../img/after_del_way_img1.svg);
+                background-repeat: no-repeat;
+                width: 215px;
+                height: 71px;
+            }
+        }
+        &:nth-child(2){
+            position: absolute;
+            left: 17%;
+            top: 58px;
+            &:after{
+                content: "";
+                display: block;
+                position: absolute;
+                top: -105px;
+                left: 70px;
+                background-image: url(../img/after_del_way_img2.svg);
+                background-repeat: no-repeat;
+                width: 345px;
+                height: 181px;
+            }
+        }
+        &:nth-of-type(4){
+            position: absolute;
+            right: 15%;
+            top: 88px;
+            &:after{
+                content: "";
+                display: block;
+                position: absolute;
+                top: 30px;
+                right: -7px;
+                background-image: url(../img/after_del_way_img3.svg);
+                background-repeat: no-repeat;
+                width: 70px;
+                height: 46px;   
+                transform: rotate(-60deg); 
+            }
+        }
+        &:last-of-type{
+            position: absolute;
+            right: 0;
+            top: 0;
+            &:after{
+                content: "";
+                display: block;
+                position: absolute;
+                top: -17px;
+                right: -78px;
+                background-image: url(../img/after_del_way_img1.svg);
+                background-repeat: no-repeat;
+                width: 154px;
+                height: 58px; 
+                transform: rotate(160deg);  
+            }
+        }
+    }
+    &__center-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        position: absolute;
+        top: 62px;
+        left: 50%;
+        transform: translateX(-50%);
+        h3{
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 47px;
+            color: #0061AF;
+            margin-bottom: 20px;
+        }
+        &:after{
+            content: "";
+            display: block;
+            position: absolute;
+            bottom: 0;
+            right: 30px;
+            background-image: url(../img/after_del_way_img3.svg);
+            background-repeat: no-repeat;
+            width: 103px;
+            height: 46px;    
+        }
+    }
+}
+
+.price-parcel{
+    display: flex;
+    align-items: center;
+    span{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33.5px;
+        color: #FFFFFF;
+    }
+    &__note{
+        position: relative;
+        width: 22px;
+        height: 22px;
+        img{
+            width: 22px;
+            height: 22px;
+            margin-left: 3px;
+        }
+        .note-description{
+            display: none;
+        }
+        &:hover{
+            .note-description{
+                display: block;
+                position: absolute;
+                left: -195px;
+                padding: 10px 15px 13px;
+                background-color: #DEEBF5;
+                border-radius: 4px;
+                color: #0061AF;
+                font-size: 11px;
+                line-height: 18px;
+                font-weight: 500;
+            } 
+        }
+    }
+}
+
 
 
